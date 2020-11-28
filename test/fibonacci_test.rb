@@ -53,4 +53,12 @@ describe "Fibonacci" do
     # Assert
     expect(answer).must_equal 55
   end
+
+  it "will return 354224848179261915075 for fib(100)" do
+    # Act
+    answer = fibonacci(100)
+
+    # Assert
+    expect(answer).must_equal 354224848179261915075
+  end
 end
